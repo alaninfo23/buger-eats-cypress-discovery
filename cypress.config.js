@@ -1,6 +1,7 @@
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
+    projectId: "dgs3i9",
   //padronizar a resolução do cypress nesse projeto
     "viewportWidth": 1440,
     "viewportHeight": 900,
